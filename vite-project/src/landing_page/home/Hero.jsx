@@ -1,7 +1,7 @@
 import React from 'react';
 function Hero() {
     return (  
-        <div className='container h-[90vh] md:h-[100vh]  flex flex-col items-center '>
+        <div className='container h-[90vh] md:h-[100vh]  flex flex-col items-center min-w-0 overflow-hidden'>
             <div className="img h-[35%] md:h-[45%] w-[90%]  md:mt-15 mb- md:mb-15  " >
                 <img src="media/landing.png" alt="" className='h-full w-full object-contain'/>
             </div>

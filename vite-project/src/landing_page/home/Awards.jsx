@@ -2,7 +2,7 @@ import React from 'react';
 function Awards() {
     return (
       <>
-      <div className='md:flex md:justify-center '>
+      <div className='md:flex md:justify-center min-w-0 overflow-hidden'>
       
     <div className="container md:flex md:items-center md:justify-around md:h-[90vh] md:w-[75vw] md:mt-20 ">
     <div className="textcontainer md:flex md:flex-col md:w-[45%]">
@@ -31,7 +31,7 @@ function Awards() {
       </div>
       </div>
     </div>
-    <div className="press w-[100vw] h-[20vh] md:mt-6 flex items-center justify-center"><img src="media/press.png" alt="ditto" className='h-[100%] w-[90%] md:w-[45%] object-contain' /></div>
+    <div className="press w-[100vw] h-[20vh] md:mt-6 flex items-center justify-center"><img src="media/press.png" alt="ditto" className='h-[100%] w-[90%] md:w-[45%] object-contain min-w-0 overflow-hidden' /></div>
     </>
   );
 }
