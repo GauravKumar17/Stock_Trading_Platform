@@ -16,7 +16,7 @@ function Navbar() {
            
         </div>
         <div>
-            <li className='font-bold text-xl text-gray-700 list-none'><button onClick={()=>setIsOpen(!isOpen)}><i class="fa-solid fa-bars"></i></button></li>
+            <li className='font-bold text-xl text-gray-700 list-none'><button onClick={()=>setIsOpen(!isOpen)}><i className="fa-solid fa-bars"></i></button></li>
         </div>
         </div>
     </div>
