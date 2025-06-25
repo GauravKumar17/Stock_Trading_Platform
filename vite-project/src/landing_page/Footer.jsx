@@ -64,16 +64,15 @@ function FooterComp({heading,a,b,c,d,e,f,g,h}){
         <>
         <div className="container flex flex-col justify-center md:justify-start space-y-4 mb-10 mt-6">
             <h1 className='text-md md:text-lg font-medium text-gray-700'>{heading}</h1>
-            <a href="" className='text-sm md:text-md hover:text-blue-600  font-medium text-gray-500'>{a}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{b}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{c}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{d}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{e}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{f}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{g}</a>
-            <a href="" className='text-sm md:text-md hover:text-blue-600 font-medium text-gray-500'>{h}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600  font-normal text-gray-600'>{a}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{b}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{c}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{d}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{e}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{f}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{g}</a>
+            <a href="" className='text-sm md:text-md hover:text-blue-600 font-normal text-gray-600'>{h}</a>
         </div>
-        
         
         </>
     );
