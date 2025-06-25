@@ -1,7 +1,7 @@
 import React from 'react';
 function Universe() {
     return ( 
-        <div className="main md:mt-8 md:h-[110vh] h-[250vh] flex flex-col  items-center">
+        <div className="main md:mt-8 md:h-[110vh] h-[250vh] flex flex-col  items-center p-4">
             <div className="container flex flex-col items-center justify-center mt-8 text-center p-4 md:p-0">
                 <div className="para1 mb-10 "><p className="text-lg md:text-xl font-normal text-gray-700 ">Want to know more about our technology stack? Check out the <a href="" className="text-blue-600 font-medium hover:text-gray-700"> Zerodha.tech </a>blog.</p></div>
                 <div className="para2 flex flex-col items-center mt-15 ">
@@ -9,7 +9,7 @@ function Universe() {
                     <p className="text-md md:text-lg font-normal text-gray-700 ">Extend your trading and investment experience even further with our partner platforms</p>
                 </div>
             </div>
-            <div className="flex justify-center items-center  md:h-[] w-[100%] ">
+            <div className="flex justify-center items-center  md:h-[] w-[100%]  ">
             <div className=" md:grid md:grid-cols-3 md:grid-rows-2  mt-10 md:w-[65%] w-[100vw] ">
                 <Container image="media/zerodhafundhouse.png" desc="Our asset management venture that is creating simple and transparent index funds to help you save for your goals." />
                 <Container image="media/sensible.svg" desc="Options trading platform that lets youcreate strategies, analyze positions, and examinedata points like open interest, FII/DII, and more.." />
