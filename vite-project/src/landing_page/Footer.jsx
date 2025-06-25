@@ -2,7 +2,7 @@ import React from 'react';
 function Footer() {
     return ( 
         <>
-        <div className="container h-[270vh]  md:h-[60vh] w-[100%] p-4 mt-8 md:w-[100vw] md:flex md:justify-center bg-gray-100 overflow-hidden">
+        <div className="container h-[250vh]  md:h-[60vh] w-[100%] p-4 mt-8 md:w-[100vw] md:flex md:justify-center bg-gray-100 overflow-hidden">
             <div className="sub md:flex md:justify-between md:w-[70vw] md:h-[100%] h-[100%]">
             <div className="md:flex md:flex-col md:w-[30%] p-2">
             <div className="img h-[8vh] w-[40vw] md:w-[10vw]  "><img src="media/Zerodha_logo.png" alt="" className='h-full w-full object-contain'/></div>
