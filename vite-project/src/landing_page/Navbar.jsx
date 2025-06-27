@@ -1,20 +1,21 @@
 import React from 'react';
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
 function Navbar() {
     const [isOpen,setIsOpen] = useState(false);
     return ( 
     <div className='relative'>
     <div className="nav h-[10vh] w-[100%] flex justify-between  md:justify-around items-center p-4 sticky">
-        <div className="left h-[2vh] md:h-[2.5vh] md:w-[9vw] "><img src="media\Zerodha_logo.png " className='h-[100%] w-[100%]'></img></div>
+        <div className="left h-[2vh] md:h-[2.5vh] md:w-[9vw] "><Link to="/"><img src="media\Zerodha_logo.png " className='h-[100%] w-[100%]'></img>  </Link></div>
         <div className=" flex items-center p-4 space-x-10">
         <div className="right md:flex  md:space-x-10 md:list-none  text-gray-500 hidden">
-            <li className=' hover:text-blue-600'>Signup</li>
-            <li className=' hover:text-blue-600'>About</li>
-            <li className=' hover:text-blue-600'>Products</li>
-            <li className=' hover:text-blue-600'>Pricing</li>
-            <li className=' hover:text-blue-600'>Support</li>
+            <Link to="/signup"><li className=' hover:text-blue-600'>Signup</li>  </Link>
+            <Link to="/about"><li className=' hover:text-blue-600'>About</li>  </Link>
+            <Link to="/products" ><li className=' hover:text-blue-600'>Products</li> </Link>
+            <Link to="/pricing"><li className=' hover:text-blue-600'>Pricing</li>  </Link>
+            <Link  to="/support"><li className=' hover:text-blue-600'>Support</li> </Link>
            
-        </div>
+        </div> 
         <div>
             <li className='font-bold text-xl text-gray-700 list-none'><button onClick={()=>setIsOpen(!isOpen)}><i className="fa-solid fa-bars"></i></button></li>
         </div>
@@ -25,11 +26,11 @@ function Navbar() {
     {isOpen && (
         <div className="absolute flex flex-col justify-between p-2 mt-2 ml-4 h-[80vh] w-[90vw] md:w-[80vw] bg-white md:shadow-none md:bg-transparent shadow-lg ">
         <div className=" grid grid-cols-2 grid-rows-3 bg-white gap-3 gap-x-5 list-none ml-3 text-gray-600 font-normal md:hidden p-4 ">
-            <li className=' hover:text-blue-600'>Signup</li>
-            <li className=' hover:text-blue-600'>About</li>
-            <li className=' hover:text-blue-600'>Products</li>
-            <li className=' hover:text-blue-600'>Pricing</li>
-            <li className=' hover:text-blue-600'>Support</li>
+            <Link to="/signup"><li className=' hover:text-blue-600'>Signup</li>  </Link>
+            <Link to="/about"><li className=' hover:text-blue-600'>About</li>  </Link>
+            <Link to="/products" ><li className=' hover:text-blue-600'>Products</li> </Link>
+            <Link to="/pricing"><li className=' hover:text-blue-600'>Pricing</li>  </Link>
+            <Link  to="/support"><li className=' hover:text-blue-600'>Support</li> </Link>
            
         </div>
         <hr className='text-gray-200 md:hidden'></hr>

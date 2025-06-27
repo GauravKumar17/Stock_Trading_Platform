@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 function Universe() {
     return ( 
         <div className="main md:mt-8 md:h-[110vh] h-[250vh] flex flex-col  items-center p-4">
@@ -20,7 +21,7 @@ function Universe() {
         </div>
         </div>
         <div className="flex flex-col justify-center items-center">
-        <button className="text-lg border-0 md:p-3 p-1.5 pl-8 pr-8 md:pl-15 md:pr-15 bg-blue-500 text-white font-medium rounded-sm hover:bg-gray-800">Signup for free</button></div>
+        <button className="text-lg border-0 md:p-3 p-1.5 pl-8 pr-8 md:pl-15 md:pr-15 bg-blue-500 text-white font-medium rounded-sm hover:bg-gray-800"><Link to="/signup" >Sign up for free</Link></button></div>
         </div>
      );
 }
